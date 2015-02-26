@@ -1,8 +1,4 @@
 public class Find_Peak_Element {
-    public static void main(String[] args) {
-
-
-    }
     public int findPeakElement(int[] num) {
         if(num.length == 1) return 0;
         if(num[0]>num[1]) return 0;
